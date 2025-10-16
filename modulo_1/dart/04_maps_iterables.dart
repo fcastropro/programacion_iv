@@ -10,6 +10,5 @@ void main() {
     print("Reverso de numbers ${reversedNumbers}");
     print("List : ${reversedNumbers.toList()}");
     print("Set : ${reversedNumbers.toSet()}");
-  
-  
+    
 }
