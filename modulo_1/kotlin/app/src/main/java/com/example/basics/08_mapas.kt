@@ -1,5 +1,4 @@
 package com.example.basics
-
 fun main() {
     println("Mapas")
     println("Mapa Inmutable")
@@ -11,23 +10,18 @@ fun main() {
     )
     println("Fuerza de los Jedis : ${fuerzaJedis}")
     println("Mapa Mutable")
-
     val misionesCompletadas = mutableMapOf<String, Int>()
     misionesCompletadas ["Luke"]=15
     misionesCompletadas ["Leia"]=12
     misionesCompletadas.put("Han",15)
-
     println("Misiones: ${misionesCompletadas}")
     for((jedi, fuerza) in fuerzaJedis){
         println("$jedi tiene nivel de fuerza $fuerza")
     }
-
     val planetasVisitados = setOf("Tatooine","Coruscant","Dagobah")
     println("Planetas Visitados: ${planetasVisitados}")
-
     val planetasPeligrosos = setOf("Mustafar","Coruscant","Korriban")
     println("Planetas Peligoros: ${planetasPeligrosos}")
-
     println("Operaciones de Conjuntos")
     val interseccion = planetasPeligrosos intersect planetasVisitados
     val union = planetasPeligrosos union planetasVisitados
@@ -35,5 +29,4 @@ fun main() {
     println("Planetas visitados y peligrosos : ${interseccion}")
     println("Todos los Planetas : ${union}")
     println("Planetas seguros visitados : ${diferencia}")
-    
 }

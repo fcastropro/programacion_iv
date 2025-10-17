@@ -1,18 +1,14 @@
 package com.example.basics
-
 import android.R
-
 fun saludar(){
     println("Hola desde una funcion de kotlin")
 }
-
 //funcion con parametros y retorno
 fun sumar(a: Int, b: Int): Int{
     return a + b
 }
 //funcion con expresion single-expression function
 fun cuadrado(numero: Int) = numero * numero
-
 //funcion con retorno múltiple
 fun retornoMultiple(a: Int, b: Int): Pair<Int, Int>{
     val suma = a+b

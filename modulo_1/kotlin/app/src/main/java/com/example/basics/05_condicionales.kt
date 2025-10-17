@@ -1,5 +1,4 @@
 package com.example.basics
-
 fun main(){
     println("!Estructuras de control!!!")
     println("!Condicionales!!!")
@@ -19,7 +18,6 @@ fun main(){
     }else{
         println("Padawan")
     }
-
     var tipoDroide: String = "R2-Q6"
     when(tipoDroide){
         "R2-D2", "R2-Q5"->print("Droide astromecanico")
@@ -27,7 +25,6 @@ fun main(){
         "B8-8", "BB-9E"->print("Droide de nueva generacion")
         else->println("Modelo Desconocido")
     }
-
     var peligro: Int = 10
     var recompensa: Int = 50
     when{
@@ -43,7 +40,6 @@ fun main(){
         semaforo=="amarillo" && estado_calle=="vacia"->println("Precaucion")
         else->println("Esperar")
     }
-
     print("Ingresa tu signo zodiacal: ")
     val signoZodiacal = (readLine() ?: "").lowercase()
     when(signoZodiacal){
@@ -53,7 +49,4 @@ fun main(){
         "cancer", "escorpio", "piscis"->println("Agua")
         else->println("Signo invalido")
     }
-
-
-
 }

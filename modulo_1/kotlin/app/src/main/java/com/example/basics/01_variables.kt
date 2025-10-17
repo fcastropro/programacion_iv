@@ -23,6 +23,8 @@ fun main(){
     val poblacion: Long = 2_000_000_000L
     println(poblacion)
     println("Tipo Texto")
+    val nombreC: String = "Fernando Castro"
+    println(nombreC)
     val nombre: String = "Obi-Wan Kenobi"
     println(nombre)
     println("Tipo Char")
