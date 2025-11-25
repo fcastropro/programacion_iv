@@ -1,0 +1,1 @@
+print('Bienvenido ejemplo semana_1')

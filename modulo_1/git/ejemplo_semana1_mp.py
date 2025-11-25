@@ -1,0 +1,1 @@
+print('Bienvenido al ejemplo de venta de motos')
